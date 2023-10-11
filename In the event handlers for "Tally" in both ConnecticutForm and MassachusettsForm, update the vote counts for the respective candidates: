@@ -1,0 +1,9 @@
+Private Sub TallyMenuItem_Click(sender As Object, e As EventArgs) Handles TallyMenuItem.Click
+    If DemocratRadioButton.Checked Then
+        ElectionGlobals.ConnecticutDemocratVotes += 1
+    ElseIf RepublicanRadioButton.Checked Then
+        ElectionGlobals.ConnecticutRepublicanVotes += 1
+    End If
+
+    ClearRadioButtons()
+End Sub
