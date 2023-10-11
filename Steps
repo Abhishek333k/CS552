@@ -1,0 +1,13 @@
+Create a new Windows Forms Application in Visual Studio using VB.NET.
+
+Add four forms to your project: WelcomeForm, ConnecticutForm, MassachusettsForm, and ResultsForm.
+
+For each form, add two RadioButtons for the Democratic and Republican candidates and a Timer on WelcomeForm. You can do this by using the Toolbox in the Visual Studio Designer.
+
+Set the Interval property of the Timer on WelcomeForm to the desired number of milliseconds for the timeout. Double-click the Timer to create an event handler for the Tick event.
+
+Add MenuStrips to ConnecticutForm and MassachusettsForm. Add the "Vote" menu with "Tally" and "Clear" submenu items to each form. Also, add a "Finish" button to both ConnecticutForm and MassachusettsForm.
+
+Double-click the menu items to create event handlers for their click events.
+
+Create a static class to store global variables and module-level variables:
