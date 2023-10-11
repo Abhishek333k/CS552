@@ -1,0 +1,7 @@
+Public Class ElectionGlobals
+    Public Shared ConnecticutDemocratVotes As Integer
+    Public Shared ConnecticutRepublicanVotes As Integer
+    Public Shared MassachusettsDemocratVotes As Integer
+    Public Shared MassachusettsRepublicanVotes As Integer
+    Public Shared TotalVotes As Integer
+End Class
